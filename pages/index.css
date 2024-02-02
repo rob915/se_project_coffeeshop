@@ -6,3 +6,80 @@
   line-height: 20px;
   margin: 0 auto;
 }
+
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  position: relative;
+  top: 30px;
+  right: 30px;
+  list-style-type: none;
+  column-gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__title {
+  display: flex;
+  position: relative;
+  top: 213px;
+  left: 80px;
+  flex-direction: column;
+  max-width: 729px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__title_span {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+}
