@@ -13,4 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Adding functionality to the Menu by creating links out of the menu items that lead to pictures of the item.
+Adding a gallery section to the page that gives the customer a feeling of what it's like inside of the building.
+Adding a section to the page that allows the customer to place orders online.
+Adding a review or testimonial section.
